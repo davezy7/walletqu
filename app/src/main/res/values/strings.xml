@@ -1,0 +1,17 @@
+<resources>
+    <string name="dashboardScreenAddRecord">Add Record</string>
+    <string name="dashboardScreenTotalBalance">Total Balance</string>
+    <string name="dashboardScreenLastTransactions">Last Transactions</string>
+    <string name="dashboardScreenEmptyTransactions">No Transaction</string>
+    <string name="dashboardScreenSeeAll">See all</string>
+
+    <string name="transactionScreenAddRecordLabel">Add Record</string>
+    <string name="transactionScreenCategoryLabel">Category</string>
+    <string name="transactionScreenDateLabel">Date</string>
+    <string name="transactionScreenEditRecordLabel">Edit Record</string>
+    <string name="transactionScreenExpenseLabel">Expense</string>
+    <string name="transactionScreenIncomeLabel">Income</string>
+    <string name="transactionScreenNoteLabel">Note</string>
+    <string name="transactionScreenRequiredLabel">Required</string>
+    <string name="transactionScreenSaveLabel">Save</string>
+</resources>
