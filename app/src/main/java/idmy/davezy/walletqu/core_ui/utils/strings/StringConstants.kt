@@ -6,5 +6,7 @@ object StringConstants {
     const val MINUS = "-"
     const val PLUS = "+"
     const val ZERO_STRING = "0"
-
+    const val QUESTION_MARK = "?"
+    const val AMPERSAND = "&"
+    const val EQUAL = "="
 }
