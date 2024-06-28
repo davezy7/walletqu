@@ -41,7 +41,7 @@ import androidx.compose.ui.text.style.TextAlign.Companion.Center
 import androidx.compose.ui.text.style.TextAlign.Companion.End
 import androidx.hilt.navigation.compose.hiltViewModel
 import idmy.davezy.walletqu.R
-import idmy.davezy.walletqu.core_entity.others.ToggleTabModel
+import idmy.davezy.walletqu.core_entity.others.ListOfValueModel
 import idmy.davezy.walletqu.core_navigation.features.TransactionNavigator
 import idmy.davezy.walletqu.core_ui.components.WQTextField
 import idmy.davezy.walletqu.core_ui.components.WQTopAppBar
@@ -138,7 +138,7 @@ internal fun RecordScreen(
 
 @Composable
 private fun AmountSection(
-    toggleItems: List<ToggleTabModel>,
+    toggleItems: List<ListOfValueModel>,
     selectedKey: String,
     amount: TextFieldValue,
     currencyCode: TextFieldValue,
@@ -333,11 +333,11 @@ private fun AdditionalInformationSection(
 }
 
 private fun getToggleItems(context: Context) = listOf(
-    ToggleTabModel(
+    ListOfValueModel(
         key = INCOME,
         title = context.getStringResource(R.string.transactionScreenIncomeLabel)
     ),
-    ToggleTabModel(
+    ListOfValueModel(
         key = EXPENSE,
         title = context.getStringResource(R.string.transactionScreenExpenseLabel)
     )
