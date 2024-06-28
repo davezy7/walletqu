@@ -1,7 +1,6 @@
 package idmy.davezy.walletqu.features.transaction.screen
 
 import android.content.Context
-import androidx.activity.compose.LocalOnBackPressedDispatcherOwner
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement.SpaceEvenly
 import androidx.compose.foundation.layout.Box
@@ -243,7 +242,7 @@ private fun AdditionalInformationSection(
             modifier = Modifier.weight(1f),
             text = category.ifEmpty(getString(res = R.string.transactionScreenRequiredLabel)),
             textAlign = End,
-            style = if (category.isBlank()) Body2 else Body2.copy(color = Scarlet),
+            style = if (category.isBlank()) Body2.copy(color = Scarlet) else Body2,
         )
         Icon(
             modifier = Modifier.size(Dp32),
